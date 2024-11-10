@@ -26,7 +26,7 @@ public class DemoService {
 	@Produces("application/json")
 	public Response getUserWithPhone(@PathParam("number") String number) throws Exception {
 
-		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/telefon_rehberi", "root", "1");
+		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/tanimJava", "root", "1");
 		Class.forName("com.mysql.jdbc.Driver");
 
 		Statement stm;
@@ -49,7 +49,7 @@ public class DemoService {
 	public ArrayList<UserBean> getUserWithNameAndSurname(@PathParam("firstname") String firstname,
 			@PathParam("lastname") String lastname) throws Exception {
 
-		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/telefon_rehberi", "root", "1");
+		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/tanimJava", "root", "1");
 		Class.forName("com.mysql.jdbc.Driver");
 
 		Statement stm;
