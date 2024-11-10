@@ -1,5 +1,5 @@
 # Dynamic-Web-Project
-It is an dynamic web project which I developed it while I was doing my internship at 32 Bit company.
+It is an dynamic web project
 
 For running this project :
 
@@ -20,13 +20,4 @@ For running this project :
 8.Run the project with using the Tomcat v9.0 server.
 
 
-## Screenshots
 
-#### Menu Screen
-![alt text](https://github.com/burhanelgun/Dynamic-Web-Project/blob/master/menuJSP.png)
-#### Register Screen
-![alt text](https://github.com/burhanelgun/Dynamic-Web-Project/blob/master/registerJSP.png)
-#### Update Screen
-![alt text](https://github.com/burhanelgun/Dynamic-Web-Project/blob/master/updateJSP.png)
-#### Successfully Screen
-![alt text](https://github.com/burhanelgun/Dynamic-Web-Project/blob/master/succes.png)
